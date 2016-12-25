@@ -1,0 +1,1837 @@
+/* 
+    Document   : andmanage
+    Author     : Yuri Alekseev
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/**********************
+Basic
+**********************/
+
+/**--------  Fonts  --------**/
+hr {
+    margin: 18px 0;
+    border: 0;
+}
+
+/**--------  body  --------**/
+
+body {
+    min-width: 520px;
+}
+
+/**--------  Service-styles  --------**/
+
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    clear: both;
+}
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+/**********************
+Header
+**********************/
+
+/**--------  navbar, brand, subnav   --------**/
+
+.navbar .nav > li > a, .navbar .dropdown-menu a {
+    float: none;
+}
+
+.navbar-brand img{
+    height: 30px;
+}
+
+/**--------  dropdown menu  --------**/
+
+.subnav .nav > li > a {
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+.subnav {
+    height: 40px;
+    text-align: center;
+    position: relative;
+    padding: 0 5px 0 5px;
+}
+
+.subnav ul{
+    display: inline-table;
+    list-style: none;
+    padding: 5px 15px 5px 15px;
+    margin-top: 5px !important;
+    margin-bottom: 0px;
+    height: 18px;
+    position: relative;
+}
+
+.subnav ul li{
+    display: inline;
+}
+
+.subnav ul li a{
+    font-size: 14px;  
+}
+
+/**--------  dropdown menu end --------**/ 
+
+/**********************
+Footer
+**********************/
+
+/**--------  page-content  --------**/
+
+.page-content.swap {
+    padding-left:15px;
+    padding-right:0px;
+}
+
+section.page-content.container {
+    box-sizing: border-box;
+}
+
+/**********************
+Side block
+**********************/
+
+.panel.panel-side{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+.panel.panel-side .panel-heading {
+    border: 0px;
+}
+
+.panel-side .list-group-item {
+    padding: 5px 15px;
+}
+
+/**--------  index  --------**/
+
+.thumbnail {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.thumbnail .caption {
+    padding-bottom: 15px;
+}
+
+.thumbnail h5 {
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.index-info {
+    margin-top: 5px;
+}
+
+.index > .col-md-4 {
+    padding:15px;
+    margin-bottom: 10px;
+}
+
+.right-blocks-column .thumbnail {
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+.news-block {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-bottom: 3px double black;
+}
+
+.news-block h2 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 15px 0px;
+    margin: 0 10px;
+}
+
+.news-block .nav-tabs {
+    margin: 0 10px;
+}
+
+.news-block .nav-tabs li {
+    clear: both;
+}
+
+.news-block .nav-tabs li img.miniature {
+    float: left;
+    margin: 3px 5px 3px 0;
+}
+
+.close-carousel, .close-rest {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+}
+
+.close-carousel {
+    position: absolute;
+    z-index: 2;
+    right: -21px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.close-rest {
+    position: absolute;
+    z-index: 2;
+    right: -21px;
+    top: 35px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.close-tree {
+    position: absolute;
+    z-index: 2;
+    left: -60px;
+    top: 85px;
+    font-size: 22px;
+    height: 40px;
+    width: 25px;
+    text-align: center;
+    line-height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 20px;
+}
+
+.thumbnail.index-info {
+    overflow: hidden;
+}
+
+.thumbnail.index-info li {
+    clear: none;
+    display: block;
+    float: left;
+}
+
+.index-info h5{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.footer-nav {
+    padding: 20px 10px;
+    margin-top: 0px;
+    text-align: center;
+    behavior: url(PIE.htc);
+}
+
+.footer-links-menu{
+    display: inline;
+}
+
+.footer-links-menu li{
+    display: inline;
+}
+
+.footer-links-menu li a {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.footer-copyright {
+    padding: 10px 10px;
+    text-align: left;
+    margin-top: 0;
+    behavior: url(PIE.htc);
+}
+
+.footer-copyright .support {
+    text-align: right;
+}
+
+.footer-copyright .support p {
+    padding-right: 25px;
+}
+
+.footer-copyright p {
+    padding-left: 10px;
+}
+
+.footer-under {
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 0;
+    behavior: url(PIE.htc);
+}
+
+.footer-sitemap {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-sitemap .block{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer-sitemap .block ul {
+    -webkit-padding-start: 0px;
+}
+
+footer.footer {
+    padding: 20px 10px;
+    margin-top: 45px;
+    behavior: url(PIE.htc);
+    text-align: center;
+}
+
+footer.footer ul {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+footer.footer ul li {
+    list-style: none;
+}
+
+footer.footer h3.block-header, footer.footer h3.block-header a {
+    font-weight: bold;
+    font-size: 14px;
+    height: 40px;
+    line-height: 18px;
+}
+
+footer.footer h3.block-header{
+    margin-left: 20px;
+}
+
+.footer-sitemap ul li{
+    line-height: 14px;
+    margin: 5px 0 5px 0;
+}
+
+.content > figure, .c-b-inline-block, .single.photos{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.c-b-inline-block {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    width: 35%;
+    float: right;
+    margin-left: 10px;
+}
+
+.content > figure {
+    margin-bottom: 20px;
+    -webkit-margin-before: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.content > figure.left, .album > figure {
+    float: left;
+    margin-right: 10px;
+}
+
+.content > figure.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.content > figure > img {
+    margin: 5px;
+}
+
+.content > figure > figcaption  {
+    padding: 5px;
+    overflow: hidden;	
+}
+
+.c-b-inline-block .middle {
+    overflow: hidden;
+}
+
+.content {
+    font-size: 14px;
+    margin: 20px 20px 40px 20px;
+}
+
+.content p {
+    font-size: 14px;
+}
+
+.content p.note {
+    margin-top: 20px;
+}
+
+.content p.note.book {
+    margin-top: 5px;
+}
+
+.content img.miniature {
+    float: left;
+    margin: 5px 10px 5px 0;
+}
+
+.content > hr {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.content > blockquote, .intro blockquote {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    text-rendering: optimizelegibility;
+}
+
+.content table {
+    margin-bottom: 5px;
+}
+
+.content table thead {
+    padding-top: 5px;
+}
+
+.popup-content {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.popup-content img {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.popup-content h4 {
+    font-size: 16px;
+    margin: 0.5em 0 1em 0;
+    text-transform: uppercase;
+}
+
+.intro {
+    margin-bottom: 15px !important;
+}
+
+.intro p {
+    line-height: 2em;
+}
+
+.content .item > p {
+    line-height: 2em;
+}
+
+/**********************
+Проверка стилей
+**********************/
+
+.btn-more {
+    font-size:  20px;
+    font-weight: bold;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    height: 20px;
+    left: 0;
+    outline: none;
+}
+
+.news-list-hr {
+    margin: 0px !important;
+}
+
+.really-tiny-sitemap {
+    font-size: 12px;
+    width: 55px;
+    margin: 0px 0 0 50px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.really-tiny-sitemap a.home {
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: url("../images/_0-icons.png") no-repeat transparent 0 0;
+}
+
+.really-tiny-sitemap a.link {
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: url("../images/_0-icons.png") no-repeat transparent -43px 0;
+}
+
+.really-tiny-sitemap a.mail {
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: url("../images/_0-icons.png") no-repeat transparent -22px 0;
+}
+
+tr {
+    vertical-align: top;
+}
+
+/*--------------------------------------------------
+*      Списки предметов группы
+*--------------------------------------------------*/
+
+ul.group-list {
+    margin-top: 20px;
+    list-style: none !important;
+}
+
+ul.group-item  {
+    background: none;
+    border: none;
+    padding: 5px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.publications ul.group-item {
+    margin-bottom: 0px;
+}
+
+.publications ul.group-item p{
+    display: none;
+}
+
+.publications ul.group-item:hover p{
+    display: block;
+}
+
+.group-item h5, .article-right-block h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.group-item img {
+    width: 120px!important;
+    margin: 5px 10px 5px 0px !important;
+    float: left;
+}
+
+.group-list.issue .miniature {
+    margin-top: 10px !important;
+}
+
+.group-item .icon {
+    float: right;
+    width: 55px;
+    text-align: right;
+}
+
+.group-item .icon img{
+    height: 20px !important;
+    width: 20px !important;
+    margin: 2px 2px 0px 2px !important;
+}
+
+.group-item .description {
+    margin-left: 150px !important;
+    padding: 5px;
+}
+
+.article-right {
+    width: 35%;
+    float: right;
+    margin: 0 5px 5px 10px;
+}
+
+.article-right-block {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+}
+
+.article-right-block ul {
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+.article-right-block ul li {
+    list-style: none;
+    margin: 2px 0 2px 0;
+}
+
+a.article-video {
+    display:block;
+    width:550px;
+    height:413px;
+    margin: auto;
+}
+
+.middle ul li.photo, .middle ul li.album {
+    display: -moz-inline-stack;
+    display: inline-block;
+    margin: 0 auto 10px;
+    text-align: center !important;
+    vertical-align: top !important;
+}
+
+.middle ul li.photo {
+    width: 80px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.middle ul li.photo img, .middle ul li.album img {
+    margin: 5px;
+    float: none;
+    width: 100%;
+    position: relative;
+}
+
+/*--------------------------------------------------
+*      Предметы
+*--------------------------------------------------*/
+
+.pdfembedded {
+    width: 100%;
+    height: 1000px;
+}
+
+/*--------------------------------------------------
+*      Альбом
+*--------------------------------------------------*/
+
+.choose-image {
+    display: inline-block;
+    width: 50px;
+}
+
+.album.photos ul {
+    list-style: none;
+    vertical-align: top !important;
+}
+
+.album.photos ul li.photo {
+    display: -moz-inline-stack;
+    display: inline-block;
+    margin: 0 auto 20px;
+    font-size: 12px;
+    width: 190px;
+    text-align: center !important;
+    vertical-align: top !important;
+    border-radius: 4px;
+}
+
+.album.photos ul li.photo a {
+    display: inline-block;
+    height: 145px;
+}
+
+.album.photos ul li.photo p a{
+    height: auto;
+}
+
+.album.photos ul li.photo a img {
+    margin: 5px;
+}
+
+.album.photos ul li.photo p {
+    margin: 5px;
+    height: 36px !important; 
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+.row.album {
+    -moz-column-width: 18em;
+    -webkit-column-width: 18em;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em; 
+
+}
+
+.row.album a {
+    display: inline-block;
+    margin:  0.25rem;
+    width:  100%; 
+}
+
+.album .thumbnail figure {
+    height: 135px;
+    overflow: hidden;
+    width: 180px;
+}
+
+.album .thumbnail figure img {
+    display: block;
+    margin: auto;
+}
+
+.album > a.mini >img {
+    max-width: 150%;
+}
+
+.album a.thumbnail img {
+    margin-bottom: 4px;
+}
+
+.single.photos {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.single.photos img {
+    margin: 0 0 5px 0;
+}
+
+.galleria-layer .inner {
+    width: 45%;
+    height:100%;
+    padding: 10px;
+    overflow:hidden;
+}
+
+.galleria-layer .inner p  {
+    font-size: 16px;
+}
+
+.galleria-thumbnails .galleria-image {
+    width: 128px;
+    height: 72px;
+}
+/*--------------------------------------------------
+*      Registry profile
+*--------------------------------------------------*/
+
+.rpcontainer, .rplcolumn, .rprcolumn {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.rpcontainer {
+    width: 100% !important;
+    float: none;
+}
+
+.rpcontainer.num {
+    margin-top: 15px !important;
+}
+
+.rpcontainer p {
+    margin-left: 10px;
+}
+
+.rplcolumn, .rprcolumn {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rplcolumn {
+    width: 220px !important;
+    float: left;
+}
+
+.rprcolumn {
+    width: 320px !important;
+    float: right;
+}
+
+/*--------------------------------------------------
+*      Профиль пользователя
+*--------------------------------------------------*/
+
+.file_upload{
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;        /* example */
+    height: 2em;           /* example */
+    line-height: 2em       /* the same as height */
+}
+
+.file_upload > button{
+    float: right;
+    height: 100%
+}
+.file_upload > div{
+    padding-left: 1em      /* example */
+}
+
+.file_upload input[type=file]{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(20);
+    letter-spacing: 10em;     /* IE 9 fix */
+    -ms-transform: scale(20); /* IE 9 fix */
+    opacity: 0;
+    cursor: pointer
+}
+
+
+/*--------------------------------------------------
+*      Группа - плитка
+*--------------------------------------------------*/
+
+.group-list .portfolio-item {
+    margin-bottom: 15px;
+}
+
+.group-list .portfolio-item .note {
+    display: none;
+}
+
+/*--------------------------------------------------
+*      Список персон
+*--------------------------------------------------*/
+
+div.persona.row {
+    width:100%
+}
+
+div.persona.col {
+    width:33%;
+    float:left;
+}
+
+div.persona.row ul {
+    list-style: none;
+}
+
+div.persona.row ul li .issue {
+    display: none;
+    padding: 4px;
+}
+
+div.persona.row ul li:hover .issue {
+    display: block;
+}
+
+
+/*--------------------------------------------------
+*      Список авторов
+*--------------------------------------------------*/
+
+.well.authors-list a {
+    font-weight: bold;
+    margin: 0 4px;
+}
+
+/*--------------------------------------------------
+*      Слайдер
+*--------------------------------------------------*/
+
+.carousel .item > img {
+    width: 100%;
+}
+
+.carousel, .slider {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.carousel-caption {
+    position: static;
+}
+
+.carousel.slide {
+    margin-bottom: 20px;
+}
+
+.carousel-indicators {
+    top: 20px;
+}
+
+.carousel .item {
+    height: 500px;
+    overflow: hidden;
+}
+.carousel .item > img {
+    margin: auto;
+    /*min-height: 500px;*/
+}
+
+.carousel.slide {
+    margin-bottom: 20px;
+}
+
+.carousel-indicators {
+    top: 20px;
+}
+
+.carousel-caption{
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.carousel-caption img {
+    float: left;
+    margin-right: 10px;
+}
+
+.carousel-caption p {
+    text-align: left;
+}
+
+/*--------------------------------------------------
+*      Формы связи
+*--------------------------------------------------*/
+
+.contact-form.real-contact-form ul {
+    margin: 10px 0 3px 0;
+}
+
+.contact-form.real-contact-form ul li {
+    font-size:13px;
+    list-style: none;
+    margin: 0 0 5px;
+    padding: 0;
+    vertical-align: top;
+}
+
+.contact-form.real-contact-form ul li .left {
+    float: left;
+    width: 125px;
+}
+
+.contact-form.real-contact-form p,
+.contact-form.real-contact-form input,
+.contact-form.real-contact-form textarea {
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.contact-form.real-contact-form ul li {
+    margin-bottom: 3px;
+}
+
+.contact-form.real-contact-form input.short-input {
+    width: 192px !important;
+}
+
+.contact-form.real-contact-form ul li img {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.contact-form.real-contact-form ul li .refresh,
+input.find {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 5px;
+    padding: 3px 10px;    
+}
+
+input.search {
+    width: 95%;
+}
+/*--------------------------------------------------
+*      &Manage
+*--------------------------------------------------*/
+
+/**------- Project manager styles -------**/
+
+a.control:hover {
+    cursor: pointer !important;
+}
+
+/*--------------------------------------------------
+*      Стили блоков управления контентом в модальных окнах
+*--------------------------------------------------*/
+
+.photo.mini {
+    margin: 0;
+}
+
+.photo.description img {
+    margin: 5px 10px 5px 0px;
+    float: left;
+    width: 100px !important;
+    max-height: 100px !important;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px;
+    padding: 1px 6px 1px 6px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+}
+a.button:hover, a.button:visited {
+    text-decoration: none;
+}
+
+/*--------------------------------------------------
+*      Контекстное меню
+*--------------------------------------------------*/
+
+/* Класс контекстного меню: */
+.context-menu {
+    position: absolute; /* Задаем абсолютное позиционирование для нашего меню */
+    display: none; /* Изначально не показываем его */
+}
+
+/* Добавляем стили для списка который будет находиться внутри меню и, собственно, содержать его пункты: */
+.context-menu ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.context-menu ul li { 
+    margin: 0; 
+    padding: 0; 
+    display: block; 
+}
+
+/* Стили для ссылок пунктов меню: */
+.context-menu ul li a { 
+    font-size: 12px; 
+    display: block; 
+    padding: 5px; 
+}
+
+.context-menu-item.icon {
+    display: list-item !important;
+}
+
+.context-menu-item.hover {
+    cursor: pointer;
+    width: auto;
+}
+
+/*--------------------------------------------------
+*      Стили структуры проекта и управления структурой
+*--------------------------------------------------*/
+#structure-edit {
+    margin-top: 20px;
+    margin-bottom:15px;
+    max-width: 252px;
+}
+
+#structure-edit.affix {
+    position: fixed;
+    top: 20px;
+}
+
+/* Стили полей ввода */
+
+#project-editor .input-group {
+    margin-bottom: 10px;
+}
+
+#project-editor .field {
+    width: 100%;
+    height: 60px;
+}
+/*--------------------------------------------------
+*      @media-стили
+*--------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-fixed-top {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    .row {
+        margin-left: 0;
+    }
+
+    .right-blocks-column .thumbnail {
+        margin-left: 5px;
+    }
+
+    .content .c-b-inline-block {
+        margin-right: 10px;
+    }
+
+    .page-content {
+        border: none;
+    }
+
+    .c-b-inline-block {
+        width: 90%;
+    }
+
+    .content p {
+        text-align: left;
+    }
+
+    .galleria-thumbnails .galleria-image {
+        width: 80px;
+        height: 45px;
+    }
+
+    .footer-sitemap .block{
+        float: none;
+    }
+
+    .navbar .nav, .navbar .nav > li,
+    .pull-right{
+        float: none !important;
+    }
+
+    .pdfembedded {
+        height: 600px;
+    }
+
+    .close-tree{
+        left: -75px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .c-b-inline-block {
+        width: 85%;
+    }
+
+    .content .c-b-inline-block {
+        margin-right: 0px;
+    }
+
+    .footer-nav {
+        text-align: left;
+    }
+
+    .footer-links-menu {
+        display: inline-block;
+        list-style-type: disc;
+    }
+
+    .footer-links-menu li {
+        display: block;
+        list-style-type: disc;
+    }
+
+    .album.photos ul li.photo {
+        width: 120px;
+    }
+
+    .album.photos ul li.photo a {
+        height: 95px;
+    }
+
+    .album.photos ul li.photo a img {
+        margin: 0px;
+    }
+
+    .nav-collapse {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+}
+
+@media (min-width: 979px) {
+
+    .nav-collapse.in {
+        height: 0 !important;
+    }
+
+}
+
+
+@media (min-width: 1600px) {
+
+    .row:before,
+    .row:after {
+        display: table;
+        content: "";
+    }
+    .row:after {
+        clear: both;
+    }
+
+    input,
+    textarea,
+    .uneditable-input {
+        margin-left: 0;
+    }
+
+    .thumbnails {
+        margin-left: -30px;
+    }
+    .thumbnails > li {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .row {
+        margin-left: -20px;
+        *zoom: 1;
+    }
+    .row:before,
+    .row:after {
+        display: table;
+        content: "";
+    }
+    .row:after {
+        clear: both;
+    }
+
+    .container,
+    .navbar-fixed-top .container,
+    .navbar-fixed-bottom .container {
+        width: 724px;
+    }
+
+    input,
+    textarea,
+    .uneditable-input {
+        margin-left: 0;
+    }
+
+    .pdfembedded {
+        height: 700px;
+    }
+
+}
+
+
+@media (max-width: 525px) {
+
+    .pdfembedded {
+        display: none;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1369px) {
+    a.article-video {
+        float: none;
+        width:550px;
+        height:413px;
+        text-align: center;
+    }
+
+}
+@media (min-width: 560px) and (max-width: 979px) {
+    a.article-video {
+        width:275px;
+        height:207px;
+        text-align: center;
+    }
+
+    body {
+        padding-top: 0;
+    }
+    .navbar-fixed-top {
+        position: static;
+        margin-bottom: 18px;
+    }
+
+    .navbar .nav-collapse {
+        clear: left;
+    }
+
+    .navbar .nav > li > a {
+        margin-bottom: 2px;
+    }
+
+    .navbar .nav > li > a,
+    .navbar .dropdown-menu a {
+        font-weight: bold;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    .navbar .dropdown-menu li + li a {
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-menu {
+        position: static;
+        top: auto;
+        left: auto;
+        float: none;
+        display: block;
+        max-width: none;
+        margin: 0 15px;
+        padding: 0;
+        border: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar .dropdown-menu:before,
+    .navbar .dropdown-menu:after {
+        display: none;
+    }
+
+    .navbar-form {
+        float: none;
+    }
+    .navbar .nav.pull-right {
+        float: none;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 599px) {
+    a.article-video {
+        float: none;
+        width:275px;
+        height:207px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 379px) {
+    a.article-video {
+        display: none;
+    }
+}
+
+@media (min-width: 1370px) {
+    .pdfembedded {
+        height: 1200px;
+    }
+}
+
+/* 
+    Document   : andpicture
+    Created on : 03.12.2012, 20:14:02
+    Author     : Yuri Alekseev
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+/**********************
+Content
+**********************/
+
+.carousel .item > img {
+    width: 100%;
+}
+
+.thumbnail {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.thumbnail .caption {
+    padding-bottom: 15px;
+}
+
+.thumbnail h5 {
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.right-blocks-column .thumbnail {
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+.news-block {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.news-block h2 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 15px 0px;
+    margin: 0 10px;
+}
+
+.news-block .nav-tabs {
+    margin: 0 10px;
+}
+
+.news-block .nav-tabs li {
+    clear: both;
+}
+
+.news-block .nav-tabs li a {
+    border: none;
+}
+
+.more-news {
+    margin-left: 25px;
+}
+
+.close-carousel, .close-rest {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    border: none;
+}
+
+.close-carousel {
+    position: absolute;
+    z-index: 2;
+    right: -21px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.close-rest {
+    position: absolute;
+    z-index: 2;
+    right: -21px;
+    top: 35px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer-nav {
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 0;
+    behavior: url(PIE.htc);
+}
+
+.footer-links-menu {
+    display: inline;
+}
+
+.footer-links-menu li {
+    display: inline;
+}
+
+.footer-links-menu li a {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.footer-copyright {
+    padding: 10px 10px;
+    margin-top: 0;
+    behavior: url(PIE.htc);
+}
+
+.footer-copyright .container {
+    width: 960px;
+}
+
+.navbar.footer ul {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.navbar.footer ul li {
+    list-style: none;
+}
+
+.navbar.footer h3.block-header {
+    font-weight: bold;
+    font-size: 14px;
+    height: 40px;
+    line-height: 18px;
+    margin-left: 20px;
+}
+
+section.content {
+    min-height: 500px;
+}
+
+.carousel {
+    margin-bottom: 10px;
+}
+
+tr {
+    vertical-align: top;
+}
+
+/* Cert block*/
+
+.article-photos ul{
+    list-style: none;
+}
+
+.article-photos ul li.photo {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.article-photos ul li.photo a {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    position: relative;
+}
+
+.article-photos ul li.photo a img {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+.article-photos ul li.photo p {
+    line-height: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/*--------------------------------------------------
+*      Articles
+*--------------------------------------------------*/
+
+.question-item {
+    background: none;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.article-right {
+    width: 35%;
+    float: right;
+    margin-left: 10px;
+}
+
+.article-right-block {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.article-right-block ul {
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.article-right-block ul li {
+    list-style: none;
+}
+
+/**------- Articles text editor styles -------**/
+
+/**------- Articles text editor styles -------**/
+
+figure.cover,
+figure.preview {
+    margin: 0;
+    margin-right: 10px;
+    width: auto;
+}
+
+figure.cover img,
+figure.preview img {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+form.article.note {
+    text-align: left;
+}
+
+
+textarea.content {
+    width: 90%;
+}
+
+/*--------------------------------------------------
+*      Альбом
+*--------------------------------------------------*/
+
+.album.photos ul {
+    list-style: none;
+    vertical-align: top !important;
+}
+
+.album.photos ul li.photo {
+    display: -moz-inline-stack;
+    display: inline-block;
+    margin: 0 auto 20px;
+    border: none;
+    font-size: 12px;
+    width: 190px;
+    text-align: center !important;
+    vertical-align: top !important;
+}
+
+.album.photos ul li.photo a {
+    display: inline-block;
+    height: 145px;
+}
+
+.album.photos ul li.photo a img {
+    margin: 5px;
+}
+
+.album.photos ul li.photo p {
+    margin: 5px;
+    height: 36px !important; 
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+/*--------------------------------------------------
+*      Списки предметов группы
+*--------------------------------------------------*/
+
+.group-list {
+    margin-top: 20px;
+    list-style: none !important;
+}
+
+.group-item  {
+    border: none;
+    padding: 5px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.group-item h5, .article-right-block h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.group-item img {
+    width: 120px!important;
+    margin: 5px 10px 5px 0px !important;
+    float: left;
+}
+
+.group-item .icon {
+    float: right;
+    width: 55px;
+    text-align: right;
+}
+
+.group-item .icon img{
+    height: 20px !important;
+    width: 20px !important;
+    margin: 2px 2px 0px 2px !important;
+}
+
+.group-item .description {
+    margin-left: 150px !important;
+    padding: 5px;
+}
+
+.article-right {
+    width: 35%;
+    float: right;
+    margin: 0 5px 5px 10px;
+}
+
+.article-right-block {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+}
+
+.article-right-block ul {
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+.article-right-block ul li {
+    list-style: none;
+    margin: 2px 0 2px 0;
+}
+
+a.article-video {
+    display:block;
+    width:550px;
+    height:413px;
+    margin: auto;
+}
+
+.middle ul li.photo, .middle ul li.album {
+    display: -moz-inline-stack;
+    display: inline-block;
+    margin: 0 auto 10px;
+    text-align: center !important;
+    vertical-align: top !important;
+}
+
+.middle ul li.photo {
+    width: 80px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.middle ul li.photo img, .middle ul li.album img {
+    margin: 5px;
+    float: none;
+    width: 100%;
+    position: relative;
+}
+
+/*--------------------------------------------------
+*      @media-стили
+*--------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .right-blocks-column .thumbnail {
+        margin-left: 5px;
+    }
+
+    .content .c-b-inline-block {
+        margin-right: 10px;
+    }
+
+    .page-content {
+        border: none;
+    }
+
+    .page-content .col-md-8,
+    .page-content .col-md-9,
+    .page-content .col-lg-9{
+        margin-left: 0px;
+    }
+
+    .c-b-inline-block {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .c-b-inline-block {
+        width: 85%;
+    }
+
+    .content .c-b-inline-block {
+        margin-right: 0px;
+    }
+
+    .footer-nav {
+        text-align: left;
+    }
+
+    .footer-links-menu {
+        display: inline-block;
+    }
+
+    .footer-links-menu li {
+        display: block;
+    }
+
+    .footer-links-menu li a {
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+}
+
+@media (max-width: 979px) {
+
+    .subnav {
+        height: 90px;
+    }
+
+}
+
+@media (min-width: 979px) {
+
+    .navbar-collapse.in {
+        height: 0 !important;
+    }
+
+}
+
+@media only screen and ( max-width: 500px ){  /* example */
+    .file_upload > div{
+        display: none
+    }
+    .file_upload > button{
+        width: 100%
+    }
+}

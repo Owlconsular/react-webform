@@ -1,0 +1,5 @@
+D:
+cd D:\Git\react-webform
+http-sever
+
+npm run build
